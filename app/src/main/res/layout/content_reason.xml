@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.fastlogisticscustomertwo.Reason"
+    tools:showIn="@layout/activity_reason">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="51dp"
+        android:text="Reason For Cancel"
+        android:textColor="#ff000000"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="30dp"
+         />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="58dp"
+        android:id="@+id/spinner2"></Spinner>
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/b4"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2"
+        android:layout_marginBottom="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/spinner2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/spinner2"
+        android:layout_marginBottom="79dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Cancel"
+        android:textColor="#ff000000"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="30dp" />
+
+</RelativeLayout>

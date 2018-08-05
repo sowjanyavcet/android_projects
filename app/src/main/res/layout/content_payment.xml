@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.fastlogisticscustomertwo.Payment"
+    tools:showIn="@layout/activity_payment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="Payment"
+                android:textSize="30sp" />
+            <EditText
+                android:id="@+id/e1"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="Name"/>
+            <EditText
+                android:id="@+id/e2"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="Address"/>
+            <EditText
+                android:id="@+id/e3"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="Mobno"/>
+            <EditText
+                android:id="@+id/e4"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="Countrycode"/>
+            <Spinner
+                android:id="@+id/sp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </Spinner>
+            <EditText
+                android:id="@+id/e5"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="Amount"/>
+            <Spinner
+                android:id="@+id/sp2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+            </Spinner>
+            <EditText
+                android:id="@+id/e6"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="Receivername"/>
+            <EditText
+                android:id="@+id/e7"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="Receiveraddress"/>
+            <EditText
+                android:id="@+id/e8"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:hint="RecieerPhoneno"/>
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:text="SUMBIT"
+                android:textSize="20dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

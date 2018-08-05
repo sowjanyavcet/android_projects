@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FastLogisticsCustomerTwo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_parcel">Parcel</string>
+    <string name="title_activity_success">Success</string>
+    <string name="title_activity_reason">Reason</string>
+    <string name="title_activity_update_info">Update_info</string>
+    <string name="title_activity_add_user">Add_user</string>
+    <string name="title_activity_pending">Pending</string>
+    <string name="title_activity_complete">Complete</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_orderpending">Orderpending</string>
+    <string name="title_activity_ordercompleted">Ordercompleted</string>
+    <string name="title_activity_payment">Payment</string>
+</resources>
